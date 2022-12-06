@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --text-color: rgb(215, 213, 213);
+  --highlight-color: rgb(179, 241, 179);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background-color: rgb(96, 26, 44);
+}
