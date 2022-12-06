@@ -1,0 +1,32 @@
+.container {
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgba(128, 128, 0, 0.575);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+}
+
+.container h4 {
+  color: var(--text-color);
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.value_container {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.value_container p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.value_container span {
+  font-size: 0.9rem;
+  color: var(--highlight-color);
+}
