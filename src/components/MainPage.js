@@ -12,7 +12,6 @@ function MainPage() {
   const [originalValues, setOriginalValues] = useState({}),
     [generatedValues, setGeneratedValues] = useState({});
   const textRef = useRef();
-  // let originalValues = {}, generatedValues = {};
 
   const changeHandler = (event) => {
     setTextValue(event.currentTarget.value);

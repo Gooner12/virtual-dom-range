@@ -1,6 +1,6 @@
 export const getSelectedText = (removeRange) => {
   const selection = window.getSelection();
-  // removing the range targeted that was used on mouseDown event
+  // removing the targeted range that was used on mouseDown event
   if (removeRange) {
     selection.removeAllRanges();
     return null;
@@ -62,7 +62,7 @@ export function getTextInputBoundingRect(
     range.moveEnd("character", selectionEnd - selectionStart);
     return range.getBoundingClientRect();
   }
-  // generating range from virtual identical text element
+  // generating a range from virtual identical text element
   const offset = getInputOffset();
   let topPosition = offset.top,
     leftPosition = offset.left;
